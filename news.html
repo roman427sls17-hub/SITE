@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Фомин Роман">
-    <meta name="keywords" content="лабораторная, сайт, табличная верстка, css">
+    <meta name="author" content="Фомин Роман ИВТ25">
+    <meta name="keywords" content="новости, Алчевск, сайт">
     <meta name="description" content="Страница новостей">
-    <title>Новости - Мой первый сайт</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Новости - Мой первый простой сайт</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 
-<table id="main" align="center">
+<table id="main" align="center" cellspacing="0" cellpadding="0">
     <tr>
-        <td id="header" colspan="2">
-            <h1><a href="index.html">Мой первый сайт</a></h1>
+        <td colspan="2" id="header">
+            <h1><a href="index.html">Мой первый простой сайт</a></h1>
         </td>
     </tr>
     <tr>
-        <td id="left">
+        <td id="left" valign="top">
             <h2>Навигация</h2>
             <ul>
                 <li><a href="index.html">Главная</a></li>
@@ -26,8 +26,8 @@
             </ul>
             <h2>Ссылки</h2>
             <ul>
-                <li><a href="https://yandex.ru" target="_blank">Яндекс</a></li>
-                <li><a href="https://google.com" target="_blank">Google</a></li>
+                <li><a href="http://yandex.ua" target="_blank">Яндекс</a></li>
+                <li><a href="http://google.com.ua" target="_blank">Google</a></li>
             </ul>
             <h2>Вход</h2>
             <form action="index.html" method="post">
@@ -38,19 +38,19 @@
                 <div align="right"><input name="ok" type="submit" value="Войти"></div>
             </form>
         </td>
-        <td id="content">
+        <td id="content" valign="top">
             <h2>Новости</h2>
-            <h3>Новость 1: Выход HTML6</h3>
-            <p>03.05.2026 - Разработчики анонсировали новый стандарт веб-технологий.</p>
-            <h3>Новость 2: Обновление CSS</h3>
-            <p>02.05.2026 - Появились новые возможности для анимации элементов.</p>
-            <h3>Новость 3: Результаты экзаменов</h3>
-            <p>01.05.2026 - Студент Фомин Роман успешно сдал лабораторную работу №3.</p>
+            <ul>
+                <li><strong>25.05.2026</strong> — В Алчевске стартовал конкурс web-разработчиков среди студентов ИВТ.</li>
+                <li><strong>22.05.2026</strong> — Защита курсовых проектов по Web-технологиям прошла успешно.</li>
+                <li><strong>20.05.2026</strong> — Открыта новая компьютерная лаборатория с современным оборудованием.</li>
+            </ul>
         </td>
     </tr>
     <tr>
-        <td id="footer" colspan="2">
-            &copy; Фомин Роман
+        <td colspan="2" id="footer">
+            &copy; 2026 Фомин Роман, ИВТ25, Алчевск<br>
+            <a href="index.html">Главная</a> | <a href="news.html">Новости</a> | <a href="contacts.html">Контакты</a>
         </td>
     </tr>
 </table>
