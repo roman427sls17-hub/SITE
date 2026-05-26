@@ -24,7 +24,7 @@ body {
     font-size: 28px;
     letter-spacing: -1px;
     padding: 20px 0 0 20px;
-    color: #FF5500;
+    margin: 0;
 }
 
 #header h1 a {
@@ -38,21 +38,10 @@ body {
     color: #111;
 }
 
-a {
-    text-decoration: none;
-    color: #4682B4;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #2a52be;
-}
-
 #left {
-    width: 200px;
+    width: 180px;
+    padding: 10px 0;
     vertical-align: top;
-    background-color: #f0f0f0;
-    padding: 10px;
 }
 
 #left h2 {
@@ -64,6 +53,7 @@ a:hover {
     color: #fff;
     font-size: 13px;
     text-align: center;
+    margin: 0 0 10px 0;
 }
 
 #left ul {
@@ -80,6 +70,7 @@ a:hover {
 
 #left ul li a:hover {
     text-decoration: underline;
+    color: #2a52be;
 }
 
 #left form {
@@ -90,9 +81,15 @@ a:hover {
 }
 
 #content {
+    text-align: justify;
+    padding: 15px 10px 10px 15px;
     vertical-align: top;
-    padding: 15px;
-    background-color: #ffffff;
+}
+
+#content h2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 0;
 }
 
 #footer {
@@ -106,4 +103,14 @@ a:hover {
 
 #footer a {
     color: #0047ab;
+}
+
+a {
+    text-decoration: none;
+    color: #4682B4;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2a52be;
 }
